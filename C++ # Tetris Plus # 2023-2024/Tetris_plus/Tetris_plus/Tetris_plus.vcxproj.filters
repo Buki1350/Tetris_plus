@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Settings">
+      <UniqueIdentifier>{4e915503-62a7-4c64-afee-bcc109c00d19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes">
+      <UniqueIdentifier>{2cbde314-1673-4c13-8005-0e15a79bf08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenes\ClassicTetris">
+      <UniqueIdentifier>{6c265857-5dbd-45f6-ba52-7838ab6e5eb9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Misc">
+      <UniqueIdentifier>{ecac7e57-40a2-432a-81fa-92ad814c5880}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{95bcc48e-adf8-40ca-a2ff-3b1f07f24aff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Main">
+      <UniqueIdentifier>{4f7ba7ef-f654-4f16-8adc-bf0f921d209d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Settings.cpp">
+      <Filter>Settings</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="ClassicTetris.cpp">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="Tetrominos.cpp">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreNumber.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="GameBoard.cpp">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="Basics.cpp">
+      <Filter>Main</Filter>
+    </ClCompile>
+    <ClCompile Include="TetrominoContainer.cpp">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="NextTetroInfo.cpp">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClCompile>
+    <ClCompile Include="Vec2D.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreboardManager.cpp">
+      <Filter>Misc</Filter>
+    </ClCompile>
+    <ClCompile Include="Scoreboard.cpp">
+      <Filter>Scenes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Menu.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Controls.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Settings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="WindowSettings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="ClassicTetris.h">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="Tetrominos.h">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreNumber.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="GameSettings.h">
+      <Filter>Settings</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="GameBoard.h">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="Basics.h">
+      <Filter>Main</Filter>
+    </ClInclude>
+    <ClInclude Include="TetrominoContainer.h">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="Vec2D.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreboardManager.h">
+      <Filter>Misc</Filter>
+    </ClInclude>
+    <ClInclude Include="NextTetroInfo.h">
+      <Filter>Scenes\ClassicTetris</Filter>
+    </ClInclude>
+    <ClInclude Include="Scoreboard.h">
+      <Filter>Scenes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
