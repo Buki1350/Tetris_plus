@@ -1,0 +1,22 @@
+Project incomplete.
+
+Controls:
+Arrow up -> change button
+Arrow down -> change button / increase speed
+Arrow left -> change button / move to left
+Arrow right -> change button / move to right
+Enter -> confirm button
+z -> rotate left
+x -> rotate right
+space -> drop to bottom
+ESC -> leave the game
+
+On joystick Genesis P65:
+Arrow up -> change button
+Arrow down -> change button / increase speed
+Arrow left -> change button / move to left
+Arrow right -> change button / move to right
+A -> confirm button / drop to bottom
+X -> rotate left
+B -> rotate right
+start -> leave the game
